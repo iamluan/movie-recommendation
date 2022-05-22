@@ -21,3 +21,4 @@ features of users and items.
 ![An inlustration of matrix factorization](/images/mf.png).
 ### Online-Updating Regularized Kernel Matrix Factorization
 An algorithm called Online-Updating Regularized Kernel Matrix Factorization which is based on matrix factorization. This algorithm is much faster at training compared to the normal matrix factorization. And, the trained model can be quickly updated with new users and new ratings.
+#### Data source: 
