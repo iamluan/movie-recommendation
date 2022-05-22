@@ -17,6 +17,7 @@ user-item rating matrix. Then, decompose the rating matrix into the product of t
 matrices (latent/factor matrices) that approximate the original matrix (See figure 8). The
 algorithm will learn the latent preferences of the user and the latent attributes of items from the known rating matrix and then predict the unknown ratings through the dot product of the latent
 features of users and items.
-![An inlustration of matrix factorization](/path/to/image.png).
+
+![An inlustration of matrix factorization](/images/mf.png).
 ### Online-Updating Regularized Kernel Matrix Factorization
 An algorithm called Online-Updating Regularized Kernel Matrix Factorization which is based on matrix factorization. This algorithm is much faster at training compared to the normal matrix factorization. And, the trained model can be quickly updated with new users and new ratings.
